@@ -1,4 +1,3 @@
-colorscheme torte
 syntax on
 set number
 set belloff=all
@@ -7,3 +6,5 @@ vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
+nnoremap <C-P> :sp <CR> :term python % <CR>
+nnoremap <C-W> :bd!<CR>
